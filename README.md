@@ -22,7 +22,7 @@ Or with `use-package` (Emacs 30+ or the `vc` backend):
 
 ```elisp
 (use-package smashpad
-  :vc (:url "https://github.com/CHANGEME/smashpad"))
+  :vc (:url "https://github.com/timotaysci/smashpad"))
 ```
 
 ## Use

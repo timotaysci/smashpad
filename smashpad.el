@@ -6,7 +6,7 @@
 ;; Version: 0.1.0
 ;; Package-Requires: ((emacs "27.1"))
 ;; Keywords: games
-;; URL: https://github.com/CHANGEME/smashpad
+;; URL: https://github.com/timotaysci/smashpad
 
 ;; This file is not part of GNU Emacs.
 
