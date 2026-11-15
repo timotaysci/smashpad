@@ -4,6 +4,11 @@
 
 Your toddler wants to bash your keyboard. Your Emacs session has three hours of unsaved work in it. `smashpad-mode` fixes both: it opens a fullscreen frame with huge, centred, rainbow-coloured letters and locks Emacs down. Mash away. `C-x C-c`, `M-x`, `C-g`, `C-z`, mouse clicks and the window close button all do nothing.
 
+<p align="center">
+  <img src="screenshots/smashpad-dark.png" alt="smashpad with a dark theme: big rainbow letters reading MAMA!!! hhhiiii ppppPPPP 12345 banana gggghjk???" width="45%">
+  <img src="screenshots/smashpad-light.png" alt="smashpad with a light theme: the same rainbow letters on white" width="45%">
+</p>
+
 ## Install
 
 Clone the repo and add it to your config:
@@ -75,6 +80,8 @@ In a text terminal, `Ctrl+Shift+p` looks the same as `Ctrl+p`, so the default ex
 make test      # run the ERT suite
 make compile   # byte-compile, warnings as errors
 ```
+
+To regenerate the screenshots: `emacs -Q -g 110x32 -l tools/screenshot.el`
 
 ## Licence
 
